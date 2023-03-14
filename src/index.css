@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: initial;
+}
+
+html,
+body {
+  min-height: 100%;
+  height: auto;
+}
+
+.character-stagger-animation-left {
+  transition: all;
+  transform: translateX(10vw) rotateX(90deg);
+}
+
+.character-stagger-animation-right {
+  transition: all;
+  transform: translateX(-10vw) rotateX(-90deg);
+}
